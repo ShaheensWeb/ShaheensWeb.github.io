@@ -11,7 +11,19 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
+	.button {
+          /* styling for a button done by me, felt bad just stealing n33co's styling. Ill probably change a few other things
+          and leave comments around here for you to check out my code!*/
+	  display: block;
+	  width: 115px;
+	  height: 25px;
+	  background: #4E9CAF;
+	  padding: 10px;
+	  text-align: center;
+	  border-radius: 5px;
+	  color: white;
+	  font-weight: bold;
+	}
 	html {
 		height: 100%;
 	}
