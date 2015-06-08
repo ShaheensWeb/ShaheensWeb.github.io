@@ -14,7 +14,14 @@ This website contains: <br />
 &nbsp;-> Resume <br />
 &nbsp;-> Work Experience <br />
 &nbsp;-> Online Web Presence <br />
-   
-  
+
+Refer to below for an image from the front page of the webdomain;
+![alt tag](http://i.imgur.com/SpKUBX8.jpg)
+
+<b>Contact information</b> <br />
+Email: shaheenghazazani@gmail.com 
+Skype: shaheeng1
+
+
   
   
