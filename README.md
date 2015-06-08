@@ -10,5 +10,11 @@ In terms of design this web domain uses aspects of: <br\>
   -> jQuery <br\>
   -> JS <br\>
   
+This website contains:
+  -> Resume
+  -> Work Experience
+  -> Online Web Presence
+  
+  
   
   
