@@ -5,15 +5,15 @@ The blog is hosted via github pages (hence the repo name being Username.github.i
 via CNAME and proper DNS setup for re-routing to shaheensweb.me, a purchased domain from Namecheap.com for roughly 8-10$ <br />
 
 In terms of design this web domain uses aspects of: <br />
-  -> HTML5<br />
-  -> CSS<br />
-  -> jQuery <br />
-  -> JS <br />
+&nbsp;-> HTML5<br />
+&nbsp;-> CSS<br />
+&nbsp;-> jQuery <br />
+&nbsp;-> JS <br />
   
 This website contains: <br />
-  -> Resume <br />
-  -> Work Experience <br />
-  -> Online Web Presence <br />
+&nbsp;-> Resume <br />
+&nbsp;-> Work Experience <br />
+&nbsp;-> Online Web Presence <br />
    
   
   
