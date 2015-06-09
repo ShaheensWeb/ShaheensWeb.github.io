@@ -21,6 +21,13 @@ body{
   background-color: black;
 }
 
+#hidden { /*Shaheen Ghazazani(C): Styling to make shit appear and disppear for fun; */
+	display: none;
+}
+
+#hidden:target{ /* link:http://stackoverflow.com/questions/13630229/onclick-in-css */
+	display: block; 
+}
 .buttonStyleShaheen {
 	background:#f78096;
 	background: -moz-linear-gradient(top,#f78096 0%,#f56778 100%);
