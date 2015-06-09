@@ -40,8 +40,7 @@ body{
 }   
 
 .buttonStyleShaheen:hover{
-    border:3px solid #ae4553
-    text-decoration: none;
+    color: black;
 }
 
 .four-oh-four { /* TODO */
