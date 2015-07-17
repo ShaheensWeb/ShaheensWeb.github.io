@@ -4,6 +4,8 @@ Personal blog created for the purpose of blogging, redirecting internship traffi
 The blog is hosted via github pages (hence the repo name being Username.github.io) and is currently being redirected
 via CNAME and proper DNS setup for re-routing to shaheensweb.me, a purchased domain from Namecheap.com for roughly 8-10$ <br />
 
+<a href="http://shaheensweb.me">Click Here</a>      
+
 In terms of design this web domain uses aspects of: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;-> HTML5<br />
 &nbsp;&nbsp;&nbsp;&nbsp;-> CSS<br />
