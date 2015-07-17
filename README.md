@@ -5,7 +5,8 @@
 	letter-spacing: 2px;
 	font-weight: bold;">
 	Shaheen Ghazazani (C) Carleton 2017 </h1>
-	<h2 style="font-family: times, Times New Roman, times-roman, georgia, serif;
+
+<h2 style="font-family: times, Times New Roman, times-roman, georgia, serif;
 	color: #444;
 	margin: 0;
 	padding: 0px 0px 6px 0px;
