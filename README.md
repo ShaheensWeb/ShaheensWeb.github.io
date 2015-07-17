@@ -1,23 +1,11 @@
-<p style="color: #424242;
-        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-	letter-spacing:0.1em;
-	text-align:center;
-	margin: 40px auto;
-	text-transform: lowercase;
-	line-height: 145%;
-	font-size: 14pt;
-	font-variant: small-caps;
-	 text-transform: uppercase;">W</p> 
-<p style="color: #424242;
-        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-	letter-spacing:0.1em;
-	text-align:center;
-	margin: 40px auto;
-	text-transform: lowercase;
-	line-height: 145%;
-	font-size: 14pt;
-	font-variant: small-caps;">elcome to Shaheen Ghazazanis personal online internet presence <br/>
-        Sean as hes commonly referred to, is a Third Year SE(Software Engineer) at Carleton University</p>
+<h1 style="font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+        font-size: 1.75em;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase;">Shaheen Ghazazani (C) Carleton 2017, Feel free to take anything you want!</h1>
 <a href="http://shaheensweb.me">Click Here</a> to go directly to the webdomain! 
 
 Concept: Personal blog created for the purpose of blogging, redirecting internship traffic, and overall design practice. <br />
