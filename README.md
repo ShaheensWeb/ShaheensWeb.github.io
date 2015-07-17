@@ -1,6 +1,8 @@
-<p style="          p:first-letter{
+<style>
+        p:first-letter{
                text-transform: uppercase;
-          }
+        }
+        
         p {
         color: #424242;
         font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
@@ -11,7 +13,9 @@
 	line-height: 145%;
 	font-size: 14pt;
 	font-variant: small-caps;
-        }">Welcome to Shaheen Ghazazanis personal online internet presence <br/>
+        }
+</style>
+<p>Welcome to Shaheen Ghazazanis personal online internet presence <br/>
         Sean as hes commonly referred to, is a Third Year SE(Software Engineer) at Carleton University</p>
 <a href="http://shaheensweb.me">Click Here</a> to go directly to the webdomain! 
 
