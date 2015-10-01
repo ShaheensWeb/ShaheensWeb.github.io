@@ -1101,3 +1101,9 @@ IMG.displayed {
 	margin-left: auto;
 	margin-right: auto 
 }
+
+P.displayed { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
