@@ -648,8 +648,14 @@ Custom Slider Controls (Flickity)
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
+
 .flickity-page-dots .dot.is-selected {
     background: white;
+}
+
+.sliderContent { 
+    /* Below is a fix to a spacing issue with flickity page plugin*/
+    padding-left: 11px;
 }
 
 /* ==========================================================================
