@@ -481,13 +481,18 @@ Buttons
     text-decoration: none;
 }
 .learn-btn, .download-btn {
-    display: inline-block;
+    display: block;
     padding: 18px 46px;
-    border: 2px solid #fff;
+    border: 2px solid black;
     border-radius: 3px;
-    color: #fff;
     font-size: 16px;
+    position: relative;
+    top: 350px;
+    margin: 0 auto;
+    text-align: center; 
+    width: 250px;
 }
+
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
     border-color: #73d0da;
     color: #73d0da;
@@ -580,15 +585,15 @@ Hero
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 990px;
-    background: rgb(40, 70, 102) url('../img/frontPage.png') no-repeat center center;
     background-size: cover;
-    color: #fff;
+    color: black;
 }
 
 .hero h1 {
     margin: 200px 0 45px 0;
     font-weight: 300;
     font-size: 45px;
+    text-align: center;
 }
 .hero h1 span {
     display: inline-block;
@@ -933,6 +938,83 @@ Screenshots
     transform: translate(0px, 0px);
 }
 
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* */
+
+.rotate{
+  background: url('http://i.imgur.com/gqSTTeD.jpg') 0 0 no-repeat; 
+  width: 273px;
+  height: 273px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 120px;
+}
+
+.clockwise, .anticlockwise{
+  color: #000;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.clockwise{
+  float: right;
+}
+
+.clockwise:hover ~ .rotate{
+  animation: rotate-clockwise 1s steps(30) infinite;
+}
+
+.auto{
+  margin-top: 40px;
+}
+
+.auto:checked ~ .rotate{
+  animation: rotate-clockwise 1s steps(30) infinite;
+}
+
+.auto:checked ~ .clockwise{
+  color: #fff;
+}
+
+.auto:checked ~ .anticlockwise{
+  color: #fff;
+}
+
+
+.anticlockwise:hover ~ .rotate{
+  animation: rotate-anticlockwise 1s steps(30) infinite;
+}
+
+.auto{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.auto-rotate{
+  color: #333;
+  font-weight: bold;
+  font-family: sans-serif;
+  clear: both;
+}
+
+@keyframes rotate-clockwise {  
+  0% {background-position: 0 0; } 
+  100% {background-position: -8192px 0; } 
+}
+
+@keyframes rotate-anticlockwise {  
+  0% {background-position: -8192px 0; }
+  100% {background-position: 0 0; } 
+}
 /* ==========================================================================
 Download Now
 ========================================================================== */
@@ -1107,3 +1189,4 @@ IMG.displayed {
 	margin-left: auto;
 	margin-right: auto 
 }
+
