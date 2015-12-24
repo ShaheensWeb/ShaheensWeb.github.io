@@ -487,10 +487,10 @@ Buttons
     border-radius: 3px;
     font-size: 16px;
     position: relative;
-    top: 350px;
     margin: 0 auto;
     text-align: center; 
     width: 250px;
+    background-color: white;    
 }
 
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
@@ -570,8 +570,13 @@ Navigation
     height: 26px;
 }
 .navicon p {
-    margin: 1px 50px 0 0
+    margin: 1px 50px 0 0;
+    color: white;
+    border: 2px solid white;
+    background-color: gray;
+    padding: 5px;
 }
+
 .navicon-fixed {
     position: fixed;
     top: 59px;
@@ -587,6 +592,7 @@ Hero
     min-height: 990px;
     background-size: cover;
     color: black;
+    background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-120534.png);
 }
 
 .hero h1 {
@@ -594,6 +600,7 @@ Hero
     font-weight: 300;
     font-size: 45px;
     text-align: center;
+    color: white;
 }
 .hero h1 span {
     display: inline-block;
@@ -712,8 +719,8 @@ Features Slider
 }
 .features-slider .flickity-page-dots {
     text-align: left;
-    margin-top: 50px;
     position: static;
+    margin-left: 11px;
 }
 .features-slider .flickity-page-dots .dot {
     margin: 0 12px 0 0;
@@ -946,81 +953,10 @@ Screenshots
     -o-user-select: none;
     user-select: none;
 }
-
-/* */
-
-.rotate{
-  background: url('http://i.imgur.com/gqSTTeD.jpg') 0 0 no-repeat; 
-  width: 273px;
-  height: 273px;
-  margin: 0 auto;
-  position: relative;
-  bottom: 120px;
-}
-
-.clockwise, .anticlockwise{
-  color: #000;
-  cursor: pointer;
-  font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-
-.clockwise{
-  float: right;
-}
-
-.clockwise:hover ~ .rotate{
-  animation: rotate-clockwise 1s steps(30) infinite;
-}
-
-.auto{
-  margin-top: 40px;
-}
-
-.auto:checked ~ .rotate{
-  animation: rotate-clockwise 1s steps(30) infinite;
-}
-
-.auto:checked ~ .clockwise{
-  color: #fff;
-}
-
-.auto:checked ~ .anticlockwise{
-  color: #fff;
-}
-
-
-.anticlockwise:hover ~ .rotate{
-  animation: rotate-anticlockwise 1s steps(30) infinite;
-}
-
-.auto{
-  display: inline-block;
-  margin-left: 0;
-}
-
-.auto-rotate{
-  color: #333;
-  font-weight: bold;
-  font-family: sans-serif;
-  clear: both;
-}
-
-@keyframes rotate-clockwise {  
-  0% {background-position: 0 0; } 
-  100% {background-position: -8192px 0; } 
-}
-
-@keyframes rotate-anticlockwise {  
-  0% {background-position: -8192px 0; }
-  100% {background-position: 0 0; } 
-}
 /* ==========================================================================
-Download Now
-========================================================================== */
+Download Now=========================== */
 .download {
-    padding: 120px 0;
+    padding: 150px;
     background-color: black;
 }
 .download h1 {
