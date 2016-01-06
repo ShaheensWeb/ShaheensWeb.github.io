@@ -1122,8 +1122,9 @@ Waypoints
 }
 
 IMG.displayed {
-	display: block;
-	margin-left: auto;
-	margin-right: auto 
+	position: absolute;
+    left: 50%;
+    margin-left: -110px;
+    margin-top: 50px;
 }
 
