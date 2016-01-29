@@ -760,7 +760,9 @@ Features List
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #4e9ba3;
+    top: 30%;
+    position: relative;
 }
 
 /* ==========================================================================
@@ -956,7 +958,8 @@ Screenshots
 /* ==========================================================================
 Download Now=========================== */
 .download {
-    padding: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background-color: black;
 }
 .download h1 {
@@ -994,112 +997,6 @@ footer li:last-child {
 }
 
 /* ==========================================================================
-Nav Overlay
-========================================================================== */
-/* Overlay style */
-
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.93); /* 93 Percent Black shade */
-}
-
-/* Menu style */
-.overlay nav {
-    position: relative;
-    top: 50%;
-    height: 60%;
-    text-align: center;
-    font-size: 54px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-.overlay ul {
-    position: relative;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-}
-.overlay ul li {
-    display: block;
-    float: left;
-    margin-right: 20px;
-}
-.overlay ul li:last-child {
-    margin-right: 0px
-}
-.overlay ul li i {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 40px;
-}
-.overlay ul li a {
-    display: block;
-    padding: 50px 0;
-    min-width: 190px;
-    border: 6px solid darkgoldenrod; /*Golden Rod... */
-    border-radius: 3px;
-    background-color: goldenrod; /* round 2 */
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 15px;
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-}
-.overlay ul li a:hover, .overlay ul li a:focus {
-    border-color: saddlebrown;
-    color: gold;
-}
-
-/* Effects */
-.overlay-boxify {
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-    transition: opacity 0.5s, visibility 0s 0.5s;
-}
-.overlay-boxify.open {
-    visibility: visible;
-    opacity: 1;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-.overlay-boxify nav ul li {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -80px, 0);
-    transform: translate3d(0, -80px, 0);
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
-}
-.overlay-boxify.open nav ul:first-child li:first-child {
-    -webkit-transition-delay: 0.05s;
-    transition-delay: 0.05s;
-}
-.overlay-boxify.open nav ul:first-child li:nth-child(2) {
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-.overlay-boxify.open nav ul:nth-child(2) li:first-child {
-    -webkit-transition-delay: 0.15s;
-    transition-delay: 0.15s;
-}
-.overlay-boxify.open nav ul:nth-child(2) li:nth-child(2) {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-.overlay-boxify.open nav ul li {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-
-/* ==========================================================================
 Waypoints
 ========================================================================== */
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 {
@@ -1118,13 +1015,12 @@ Waypoints
 }
 .footer-logo{
     -webkit-filter: invert(90%);
-    /* color:#3f6184; */
 }
 
 IMG.displayed {
-	position: absolute;
-    left: 50%;
-    margin-left: -110px;
-    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 32%;
 }
 
