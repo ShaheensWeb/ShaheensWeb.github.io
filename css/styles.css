@@ -592,7 +592,8 @@ Hero
     min-height: 990px;
     background-size: cover;
     color: black;
-    background: black;
+    background: url('../img/backgroundArt.gif');
+    background-size: 100% 100%;
 }
 
 .hero h1 {
