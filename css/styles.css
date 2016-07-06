@@ -598,10 +598,10 @@ Hero
 
 .hero h1 {
     margin: 200px 0 45px 0;
-    font-weight: 300;
+    font-weight: 450;
     font-size: 45px;
     text-align: center;
-    color: white;
+    color: black;
 }
 .hero h1 span {
     display: inline-block;
