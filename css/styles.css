@@ -114,6 +114,7 @@ Typography
 h1 {
     margin: 0.67em 0;
     font-size: 2em;
+    text-align: center;
 }
 h2 {
     margin: 0.83em 0;
@@ -691,7 +692,7 @@ Features Slider
     position: relative;
     padding: 11% 100px 10% 100px;
     height: 400px;
-    background-color: black;
+    background-color: grey;
 }
 .features-slider ul {
     margin: 0;
@@ -961,7 +962,7 @@ Download Now=========================== */
 .download {
     padding-top: 150px;
     padding-bottom: 150px;
-    background-color: black;
+    background-color: grey;
 }
 .download h1 {
     margin: 0 0 15px 0;
