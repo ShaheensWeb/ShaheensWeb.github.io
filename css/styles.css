@@ -491,6 +491,7 @@ Buttons
     margin: 0 auto;
     text-align: center; 
     width: 250px;
+    color: black;
     background-color: white;    
 }
 
@@ -593,7 +594,7 @@ Hero
     min-height: 990px;
     background-size: cover;
     color: black;
-    background: url('../img/frontImage.png');
+    background: url('../img/frontPage.png');
     background-size: 100% 100%;
 }
 
@@ -602,7 +603,7 @@ Hero
     font-weight: 450;
     font-size: 45px;
     text-align: center;
-    color: black;
+    color: whitesmoke;
 }
 .hero h1 span {
     display: inline-block;
