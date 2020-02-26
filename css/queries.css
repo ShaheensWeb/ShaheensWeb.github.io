@@ -1,4 +1,4 @@
-@media screen and (max-width:1200px){
+    @media screen and (max-width:1200px){
     .device{left:20%;top:-36px;}
     footer li{margin-right:10%;}
     .feature-content{width:55%;}
@@ -9,7 +9,7 @@
     .screenshots ul li{width:50%;}
     .screenshots-intro{padding:110px 0 100px 0;}
     .feature-content{width:80%;}
-    .features-slider{height:100%}
+    .features-slider{height:40%}
 }
 @media screen and (max-width:680px){
     .feature-content{width:60%;}
