@@ -683,7 +683,7 @@ li span:hover:after {
 #index-body {
     background: url('assets/img/map.png');
     background-size: cover;
-    height: 250%;
+    height: 190%;
     background-repeat: no-repeat;
     background-position: center;
 }
