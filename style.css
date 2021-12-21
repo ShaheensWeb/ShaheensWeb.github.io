@@ -6,25 +6,31 @@
     src: url("assets/fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/CircularStd-Bold.woff") format("woff"), url("assets/fonts/CircularStd-Bold.ttf") format("truetype"), url("assets/fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
 }
 
+@font-face {
+    font-family: EightBit;
+    src:url(assets/fonts/PixelOperatorMono8-Bold.ttf);
+    font-weight: bold;
+  }
+
 :root {
     --primary-color: none;
     --overlay-color: rgba(255, 255, 255, 0.9);
     --menu-speed: 0.75s;
-    --light-text-color: #444;
+    --light-text-color: #000;
     --black-color: #000;
-    --white-color: #fff;
+    --white-color: #000;
     --hero-color: black;
 }
 .work-hero-card{
     display: block;
     margin:0 auto;
-    width:80%;
+    width:50%;
     background: #fff;
     align-items: center;
     padding:0;
     /* border-radius: 10px; */
     padding-bottom: 15px;
-    /* border:1px solid #44444450; */
+    /* border:1px solid #fff44450; */
     box-shadow: 1px 1px 20px #00000025;
     cursor: pointer;
     transition: all 1s;
@@ -50,7 +56,7 @@
 .work-card-hero-img{
     width:100%;
     display: block;
-    /* border:1px solid #44444450; */
+    /* border:1px solid #fff44450; */
     /* border-radius: 10px; */
     border-bottom: none;
     margin:0 auto;
@@ -91,9 +97,9 @@
 }
 
 .work-hero {
-    /* border:2px solid #444; */
+    /* border:2px solid #fff; */
     border-radius: 10px;
-    /* box-shadow: 0px 0px 5px #444; */
+    /* box-shadow: 0px 0px 5px #fff; */
     width: 90%;
     transition: width 1s;
 }
@@ -155,7 +161,7 @@
 }
 
 #partner-logo:hover {
-    box-shadow: 0px 0px 10px #444;
+    box-shadow: 0px 0px 10px #fff;
 }
 
 .work-read {
@@ -164,9 +170,9 @@
 }
 
 .work-read:hover {
-    background: #444;
+    background: #fff;
     color: white !important;
-    border: 2px solid #444 !important;
+    border: 2px solid #fff !important;
 }
 
 body {
@@ -194,7 +200,7 @@ body {
 }
 
 .comingsoon a {
-    color: #444;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
     transition: font-size 1s;
@@ -216,19 +222,19 @@ body {
 }
 
 li span a {
-    color: #444;
+    color: #000;
     text-decoration: none;
 
 }
 
 li span a:hover {
-    color: #444;
+    color: #000;
     text-decoration: none;
 }
 
 .copyright-legal {
     font-size: 1.1em;
-    color: #444;
+    color: #000;
     letter-spacing: 0px;
     text-align: left;
 }
@@ -247,7 +253,7 @@ li span a:hover {
 .legal a,
 .legal a:hover,
 .legal a:active {
-    color: #444;
+    color: #000;
     text-decoration: none;
 }
 
@@ -260,7 +266,7 @@ li span a:hover {
 
 .privacy-policy h2 {
     font-size: 25px;
-    font-family: 'CircularStd';
+    font-family: 'EightBit';
     /* letter-spacing: 0.1rem; */
 }
 
@@ -295,8 +301,7 @@ li span a:hover {
 .nav-logo {
     height: 100%;
     float: left;
-
-
+    margin-top: 40px;
 }
 
 
@@ -459,7 +464,7 @@ li span a:hover {
     font-size: 4.5em;
     font-weight: bold;
     color: var(--hero-color);
-    font-family: 'CircularStd', sans-serif;
+    font-family: 'EightBit', sans-serif;
 }
 
 .contact-hero {
@@ -500,7 +505,7 @@ label {
     color: #495057;
     background: none;
     border: none;
-    border-bottom: 2px solid #444;
+    border-bottom: 2px solid #fff;
     border-radius: 0rem;
     transition: all .5s ease-in-out;
     outline: none;
@@ -521,7 +526,7 @@ label {
 } */
 .learn-btn {
     padding: 5px 10px;
-    background: var(--light-text-color);
+    background: #000;
     color: white;
     border: 2px solid var(--light-text-color);
     letter-spacing: 0.1;
@@ -530,7 +535,7 @@ label {
 
 .contact-des a {
     text-decoration: none;
-    color: #444;
+    color: #000;
     transition: color 1s;
 }
 
@@ -568,9 +573,9 @@ label {
 
 #logo {
     margin-top: 5px;
-    height: 80%;
+    height: 45%;
     padding: 6px;
-    border: 4px solid #444;
+    border: 2px solid #fff;
     border-radius: 50%;
 }
 
@@ -614,7 +619,7 @@ li {
 }
 
 .footer-credits a {
-    color: #444;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
     transition: all 1s;
@@ -676,8 +681,9 @@ li span:hover:after {
 }
 
 #index-body {
-    /* background: url('assets/img/mobile.png'); */
+    background: url('assets/img/map.png');
     background-size: cover;
+    height: 250%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -721,10 +727,6 @@ li span:hover:after {
     } */
 
 }
-
-/* #logo {
-    display: none;
-} */
 
 @media only screen and (max-width: 768px) {
 
@@ -844,7 +846,6 @@ li span:hover:after {
 
     .privacy-policy p {
         padding-right: 1vw;
-        /* text-align: left; */
     }
 
     .project-star {
@@ -869,7 +870,7 @@ li span:hover:after {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #444;
+    background: #fff;
     border-radius: 50px;
 
 }
@@ -879,3 +880,25 @@ li span:hover:after {
     background: #555;
 
 }
+
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+  
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+  
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
