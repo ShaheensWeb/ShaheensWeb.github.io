@@ -21,7 +21,7 @@ function UndeadScroll(props) {
                     That was until the they were freed by the paladin Mondus Lightkeeper, a mistake he would soon regret. 
                 </p>
                 <p className="scroll-txt">
-                    Now, the undead have set their eyes upon Ensen. 
+                    Now, the undead have set their eyes upon Esnen. 
                     With no chains or limitations to keep their souls prisoner, Lord Pooingcat has taken up the crown in order to spread the wrath of the undead to the farthest reaches of the land. 
                     Those who stand against the undead will surely fall in a wake of terror and death and those who follow will be rewarded. The undead shall be prisoners no more.
                 </p>
@@ -29,7 +29,7 @@ function UndeadScroll(props) {
                     <a href="https://magiceden.io/marketplace/lords_of_sol" target="_blank" rel="noopener noreferrer">
                         <button className="magic-eden-button-scroll">Buy on Magic Eden</button>
                     </a>
-                        <button className="magic-eden-button-scroll" onClick={() => handleClick(false, "")}>Back to Ensen</button>
+                        <button className="magic-eden-button-scroll" onClick={() => handleClick(false, "")}>Back to Esnen</button>
                 </div>
             </div>
         </div>
