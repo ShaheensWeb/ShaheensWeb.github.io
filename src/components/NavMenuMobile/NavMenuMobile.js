@@ -33,12 +33,16 @@ function NavMenuMobile(props) {
             </a>
             </li>
             <li className="nav-link-mobile">
-                <i className="fab fa-discord"></i>
+            <a href="https://discord.gg/6sjHkM8nTT" className="mobile-nav-anchor" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-discord nav-menu-icon"></i>
                 <p className="nav-link-mobile-txt">Discord</p>
+            </a>
             </li>
             <li className="nav-link-mobile">
-                <i className="fab fa-twitter"></i>
-                <p className="nav-link-mobile-txt">Twitter</p>
+                <a href="https://twitter.com/LordsofSOL" className="mobile-nav-anchor" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-twitter nav-menu-icon"></i>
+                    <p className="nav-link-mobile-txt">Twitter</p>
+                </a>
             </li>
         </ul>
     </div>

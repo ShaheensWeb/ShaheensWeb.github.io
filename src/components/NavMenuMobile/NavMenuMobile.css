@@ -51,4 +51,17 @@
 .nav-link-mobile-txt {
   font-size: 1.1rem;
   padding-left: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-menu-icon {
+  color: #ffffff;
+}
+
+.mobile-nav-anchor {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
