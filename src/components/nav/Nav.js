@@ -28,7 +28,7 @@ function Nav(props) {
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a href="https://discord.gg/Wu8bQckF" target="_blank" rel="noopener noreferrer">
+                    <a href="https://discord.gg/6sjHkM8nTT" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-discord fa-lg nav-icon"></i>
                     </a>
                 </li>
