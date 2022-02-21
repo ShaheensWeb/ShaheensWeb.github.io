@@ -27,14 +27,16 @@ function NavMenuMobile(props) {
             </a>
             </li>
             <li className="nav-link-mobile">
-            <a href="#team" className="nav-link-mobile">
-                <i className="fas fa-users"></i>
-                <p className="nav-link-mobile-txt">Team</p>
-            </a>
+                <a href="#team" className="nav-link-mobile">
+                    <i className="fas fa-users"></i>
+                    <p className="nav-link-mobile-txt">Team</p>
+                </a>
             </li>
-            <li className="nav-link-mobile">
-                <i className="fab fa-discord"></i>
-                <p className="nav-link-mobile-txt">Discord</p>
+            <li className="nav-link-mobile" >
+                 <a href="https://discord.gg/6sjHkM8nTT" className="nav-link-mobile">
+                    <i className="fab fa-discord"></i>
+                    <p className="nav-link-mobile-txt">Discord</p>
+                </a>
             </li>
             <li className="nav-link-mobile">
                 <i className="fab fa-twitter"></i>
