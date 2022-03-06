@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64e7224d.css",
-    "main.js": "/static/js/main.4a1dcdef.js",
+    "main.css": "/static/css/main.a991ca79.css",
+    "main.js": "/static/js/main.38339067.js",
     "static/media/roadmap.png": "/static/media/roadmap.a475d45cf9ccc98a64b6.png",
     "static/media/map.png": "/static/media/map.8f205dc8d61a43b75ccf.png",
     "static/media/orc_lord.png": "/static/media/orc_lord.dc89d2933fa6d6ee92b0.png",
@@ -16,11 +16,11 @@
     "static/media/scroll.png": "/static/media/scroll.1c3a4eaef89c4b382b1f.png",
     "static/media/logo.png": "/static/media/logo.2239db3956b6b4fc9014.png",
     "index.html": "/index.html",
-    "main.64e7224d.css.map": "/static/css/main.64e7224d.css.map",
-    "main.4a1dcdef.js.map": "/static/js/main.4a1dcdef.js.map"
+    "main.a991ca79.css.map": "/static/css/main.a991ca79.css.map",
+    "main.38339067.js.map": "/static/js/main.38339067.js.map"
   },
   "entrypoints": [
-    "static/css/main.64e7224d.css",
-    "static/js/main.4a1dcdef.js"
+    "static/css/main.a991ca79.css",
+    "static/js/main.38339067.js"
   ]
 }
