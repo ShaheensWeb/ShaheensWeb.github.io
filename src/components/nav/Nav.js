@@ -21,6 +21,7 @@ function Nav(props) {
             <ul className="nav-links">
                 <li className="nav-link"><a href="#lore" className="nav-anchor">Lore</a></li>
                 <li className="nav-link"><a href="#roadmap" className="nav-anchor">Roadmap</a></li>
+                <li className="nav-link"><a href="https://drive.google.com/file/d/1yNNJF44ofd2s0n4vJtYwfTlAHmYO7X_q/view" className="nav-anchor" target="_blank" rel="noopener noreferrer">White Paper</a></li>
                 <li className="nav-link"><a href="#team" className="nav-anchor">Team</a></li>
                 <li className="nav-link">
                     <a href="https://twitter.com/LordsofSOL" target="_blank" rel="noopener noreferrer">

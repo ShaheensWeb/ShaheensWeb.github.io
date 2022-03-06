@@ -27,10 +27,16 @@ function NavMenuMobile(props) {
             </a>
             </li>
             <li className="nav-link-mobile">
-            <a href="#team" className="nav-link-mobile">
-                <i className="fas fa-users"></i>
-                <p className="nav-link-mobile-txt">Team</p>
-            </a>
+                <a href="https://drive.google.com/file/d/1yNNJF44ofd2s0n4vJtYwfTlAHmYO7X_q/view" className="mobile-nav-anchor" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-book nav-menu-icon"></i>
+                    <p className="nav-link-mobile-txt">White Paper</p>
+                </a>
+            </li>
+            <li className="nav-link-mobile">
+                <a href="#team" className="nav-link-mobile">
+                    <i className="fas fa-users"></i>
+                    <p className="nav-link-mobile-txt">Team</p>
+                </a>
             </li>
             <li className="nav-link-mobile">
             <a href="https://discord.gg/6sjHkM8nTT" className="mobile-nav-anchor" target="_blank" rel="noopener noreferrer">
